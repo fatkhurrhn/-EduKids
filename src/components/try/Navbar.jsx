@@ -25,7 +25,7 @@ function Navbar() {
                 <Link to="/disnaker/lowongan" className="text-gray-600 hover:text-[#2a436c] transition-colors">Lowongan</Link>
                 <Link to="/disnaker/pelatihan" className="text-gray-600 hover:text-[#2a436c] transition-colors">Pelatihan</Link>
                 <Link to="/disnaker/blog" className="text-gray-600 hover:text-[#2a436c] transition-colors">Berita</Link>
-                <Link to="/disnaker/tkwt" className="text-gray-600 hover:text-[#2a436c] transition-colors">TKWT</Link>
+                <Link to="/disnaker/tkwt" className="text-gray-600 hover:text-[#2a436c] transition-colors">PKWT</Link>
               </div>
             </div>
 
