@@ -22,7 +22,7 @@ function App() {
 
         <Route path="/disnaker" element={<HomeDisnaker />} />
         <Route path="/disnaker/lowongan" element={<Lowongan />} />
-        <Route path="disnaker/lowongan/detail/:id" element={<DetailLowongan />} />
+        <Route path="/disnaker/lowongan/:id" element={<DetailLowongan />} />
         <Route path="/disnaker/pelatihan" element={<Pelatihan />} />
         <Route path="/disnaker/blog" element={<Berita />} />
         <Route path="/disnaker/tkwt" element={<Tkwt />} />
