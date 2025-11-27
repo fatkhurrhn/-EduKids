@@ -22,10 +22,10 @@ function Navbar() {
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-8">
                 <Link to="#" className="text-[#2a436c] hover:text-[#355485] font-medium transition-colors">Beranda</Link>
+                <Link to="#" className="text-[#2a436c] hover:text-[#355485] font-medium transition-colors">Tentang Kami</Link>
                 <Link to="/disnaker/lowongan" className="text-gray-600 hover:text-[#2a436c] transition-colors">Lowongan</Link>
                 <Link to="/disnaker/pelatihan" className="text-gray-600 hover:text-[#2a436c] transition-colors">Pelatihan</Link>
                 <Link to="/disnaker/blog" className="text-gray-600 hover:text-[#2a436c] transition-colors">Berita</Link>
-                <Link to="/disnaker/tkwt" className="text-gray-600 hover:text-[#2a436c] transition-colors">PKWT</Link>
               </div>
             </div>
 

@@ -4,27 +4,29 @@ import HomePage from './try/HomePage';
 import ComingSoon from './pages/ComingSoon';
 import LandingPage from './try/LandingPage';
 import Try from './try/Try';
-import HomeDisnaker from './try/disnaker/HomeDIsnaker';
-import Lowongan from './try/disnaker/Lowongan';
-import Pelatihan from './try/disnaker/Pelatihan';
-import Berita from './try/disnaker/Blog';
+import HomeDisnaker from './disnaker/HomeDIsnaker';
+import Lowongan from './disnaker/Lowongan';
+import Pelatihan from './disnaker/Pelatihan';
+import Berita from './disnaker/Blog';
 import Tkwt, {
   PengertianTKWT,
   LowonganTKWT,
   HakKewajibanTKWT,
   TipsPanduanTKWT,
   RegulasiTKWT
-} from './try/disnaker/Tkwt';
-import DetailLowongan from './try/disnaker/DetailLowongan';
-import DetailBlog from './try/disnaker/DetailBlog';
-import DetailPeserta from './try/disnaker/DetailPeserta';
+} from './disnaker/Tkwt';
+import DetailLowongan from './disnaker/DetailLowongan';
+import DetailBlog from './disnaker/DetailBlog';
+import DetailPeserta from './disnaker/DetailPeserta';
 import Pkwt, { 
   PengertianPKWT, 
   SyaratKetentuanPKWT, 
   HakKewajibanPKWT, 
   TemplateDokumenPKWT, 
   KonsultasiPKWT 
-} from './try/disnaker/Pkwt';
+} from './disnaker/Pkwt';
+import Ngetik1 from './typing/G1';
+import About from './disnaker/About';
 
 function App() {
   return (
@@ -35,7 +37,11 @@ function App() {
         <Route path="/landing-page" element={<LandingPage />} />
 
 
+        <Route path="/n1" element={<Ngetik1 />} />
+
+
         <Route path="/disnaker" element={<HomeDisnaker />} />
+        <Route path="/disnaker/about" element={<About />} />
         <Route path="/disnaker/lowongan" element={<Lowongan />} />
         <Route path="/disnaker/lowongan/:id" element={<DetailLowongan />} />
         <Route path="/disnaker/pelatihan" element={<Pelatihan />} />

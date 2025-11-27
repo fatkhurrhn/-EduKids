@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate, Routes, Route } from 'react-router-dom';
-import Navbar from '../../components/try/Navbar';
-import Footer from '../../components/try/Footer';
+import Navbar from '../components/try/Navbar';
+import Footer from '../components/try/Footer';
 
 // Component untuk setiap tab
 function PengertianTKWT() {

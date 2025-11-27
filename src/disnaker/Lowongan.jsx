@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Navbar from '../../components/try/Navbar';
-import Footer from '../../components/try/Footer';
+import Navbar from '../components/try/Navbar';
+import Footer from '../components/try/Footer';
 
 export default function Lowongan2() {
     // Dummy Data Lowongan

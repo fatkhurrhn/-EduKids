@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import Navbar from '../../components/try/Navbar';
-import Footer from '../../components/try/Footer';
+import Navbar from '../components/try/Navbar';
+import Footer from '../components/try/Footer';
 
 export default function Pelatihan() {
     const navigate = useNavigate();
