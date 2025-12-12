@@ -38,6 +38,18 @@ import PkwtPage from './pkwt/PkwtPage';
 import PkwttPage from './pkwt/PkwttPage';
 import FormPkwtPage from './pkwt/FormPkwtPage ';
 import CompanyProfilePage from './pkwt/CompanyProfilePage';
+import IndexCempor from './cempor/IndexCempor';
+import TentangCempor from './cempor/TentangCempor';
+import ModulPelatihan from './cempor/ModulPelatihan';
+import JadwalKelas from './cempor/JadwalKelas';
+import Tingkatan from './cempor/Tingkatan';
+import Alumni from './cempor/Alumni';
+import Galeri from './cempor/Galeri';
+import Kegiatan from './cempor/Kegiatan';
+import Dashboard from './cempor/DashboardPeserta';
+import Login from './cempor/Login';
+import Pendaftaran from './cempor/Pendaftaran';
+import DashboardAdmin from './cempor/DashboardAdmin';
 
 function App() {
   return (
@@ -61,6 +73,19 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/tes" element={<Try />} />
         <Route path="/landing-page" element={<LandingPage />} />
+
+        <Route path="/cempor" element={<IndexCempor />} />
+        <Route path="/tentang" element={<TentangCempor />} />
+        <Route path="/program/modul" element={<ModulPelatihan />} />
+        <Route path="/program/jadwal" element={<JadwalKelas />} />
+        <Route path="/program/tingkatan" element={<Tingkatan />} />
+        <Route path="/kegiatan" element={<Kegiatan />} />
+        <Route path="/alumni" element={<Alumni />} />
+        <Route path="/galeri" element={<Galeri />} />
+        <Route path="/pendaftaran" element={<Pendaftaran />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/cempor/dashboard/peserta" element={<Dashboard />} />
+        <Route path="/cempor/dashboard/admin" element={<DashboardAdmin />} />
 
 
         <Route path="/n1" element={<Ngetik1 />} />
